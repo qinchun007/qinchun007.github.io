@@ -1,0 +1,30 @@
+.header{
+    background-color: #D3ECF5;
+    padding-bottom:20px;
+    margin-bottom:32px;
+    border-bottom:1px solid #eee;
+
+}
+.main{
+    background-color: #edd3f5;
+   
+}
+.sidebar{
+    background-color: #dbf5d3;
+    
+}
+.footer{
+    padding:40px 0;
+    color: #999;
+    text-align:center;
+    border-top:1px solid #e5e5e5;
+    background-color:#f9f9f9;
+}
+.sidebar-module{
+padding:16px;
+background-color:#f5f5f5;
+border-radius:10px;
+}
+#wang{
+    color: #ff0000;
+}
