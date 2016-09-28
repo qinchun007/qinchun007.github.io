@@ -1,5 +1,5 @@
 .header{
-    background-color: #D3ECF5;
+  
     padding-bottom:20px;
     margin-bottom:32px;
     border-bottom:1px solid #eee;
@@ -27,4 +27,9 @@ border-radius:10px;
 }
 #wang{
     color: #ff0000;
+}
+.blog-description 
+
+{
+    color: #999;
 }
