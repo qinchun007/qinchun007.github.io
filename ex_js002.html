@@ -1,64 +1,64 @@
 <html lang="zh-TW">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	<title>Web程式設計</title>
+    <title>Web程式設計</title>
 
-	<link rel="stylesheet" href="./css/bootstrap.css">
-	<link rel="stylesheet" href="./css/ex_js001.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/ex_js001.css">
 </head>
 
 <body>
 
-	<!-- 導覽例-->
-	<div class="container-fluid">
-		<nav class="navbar navbar-full navbar-fixed-top navbar-dark bg-inverse bg-faded">
+    <!-- 導覽例-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-full navbar-fixed-top navbar-dark bg-inverse bg-faded">
 
-			<div class="container">
-				<a class="navbar-brand m-b-0" href="#">Project Name</a>
+            <div class="container">
+                <a class="navbar-brand m-b-0" href="#">Project Name</a>
 
-				<ul class="nav navbar-nav ">
-					<li class="nav-item">
-						<div class="btn-group">
-							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <ul class="nav navbar-nav ">
+                    <li class="nav-item">
+                        <div class="btn-group">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 					JavaScript
 				</a>
-							<div class="dropdown-menu">
-								<a class="dropdown-item" href="./ex_js001_03.html">Hello World</a>
-								<a class="dropdown-item active" href="./ex_js002.html">input</a>
-							<a class="dropdown-item " href="./ex_js003.html">BMI</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">D</a>
-							</div>
-						</div>
-					</li>
-				</ul>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./ex_js001_03.html">Hello World</a>
+                                <a class="dropdown-item active" href="./ex_js002.html">input</a>
+                                <a class="dropdown-item " href="./ex_js003.html">BMI</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">D</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
 
-				<ul class="nav navbar-nav pull-md-right">
-					<li class="nav-item ">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Travel</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Game</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
+                <ul class="nav navbar-nav pull-md-right">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ex_travel.html">Travel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Game</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ex_aboutme.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-	<!--標題-->
-	<div class="header">
-		<div class="container">
-			<!--<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!--標題-->
+    <div class="header">
+        <div class="container">
+            <!--<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
 					<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
@@ -84,42 +84,40 @@
 					<span class="sr-only">Next</span>
 				</a>
 			</div>-->
-		</div>
-	</div>
+        </div>
+    </div>
 
-	<!-- 內文 -->
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
+    <!-- 內文 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
 
-				<div class="panel">
-					
+                <div class="panel">
+
                     <input id="input" class="form-control" type="text">
-					<button id="test" type="button" class="btn btn-primary" style="margin-top:20px;">測試</button>
-					<div id="output"></div>
-				</div>
-			</div>
-		</div>
-	</div>
+                    <button id="test" type="button" class="btn btn-primary" style="margin-top:20px;">測試</button>
+                    <div id="output"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<!--頁尾-->
-	<div class="footer">
-		<div class="container">
-			&copy; 2016 kChen@MCU
-		</div>
-	</div>
+    <!--頁尾-->
+    <div class="footer">
+        <div class="container">
+            &copy; 2016 kChen@MCU
+        </div>
+    </div>
 
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY"
-		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB"
-		crossorigin="anonymous"></script>
-	<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU"
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU"
         crossorigin="anonymous"></script>-->
 
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/js002.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/js002.js"></script>
 
 </body>
 
