@@ -1,0 +1,61 @@
+.header {
+    padding-bottom: 20px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #eee;
+}
+
+
+/*div.header > div.container {
+    background-color: #D3ECF5;
+    height: 200px;
+}*/
+
+
+/*.main {
+    background-color: #F0F0F0;
+}*/
+
+.sidebar {
+    background-color: #DBF5D3;
+}
+
+.sidebar-module {
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+}
+
+h1.title {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+
+.row_item {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 25px;
+}
+
+.panel {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.navbar-header {
+    margin-bottom: 50px;
+}
+
+.output {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
