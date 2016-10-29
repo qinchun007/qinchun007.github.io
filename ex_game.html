@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+    <meta name="Generator" content="EditPlus">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+
     <title>Web程式設計</title>
 
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/ex_js001.css">
 </head>
 
-<body>
+<body onload="init()" onkeydown="DoKeyDown(event)">
 
     <!-- 導覽例-->
     <div class="container-fluid">
@@ -27,8 +32,8 @@
 					JavaScript
 				</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item active" href="./ex_js001_03.html">Hello World</a>
-                                <a class="dropdown-item" href="./ex_js002.html">input</a>
+                                <a class="dropdown-item" href="./ex_js001_03.html">Hello World</a>
+                                <a class="dropdown-item active" href="./ex_js002.html">input</a>
                                 <a class="dropdown-item " href="./ex_js003.html">BMI</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">D</a>
@@ -58,32 +63,7 @@
     <!--標題-->
     <div class="header">
         <div class="container">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item">
-                        <img src="https://unsplash.it/1110/300/?blur&amp;random&amp;4" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://unsplash.it/1110/300/?blur&amp;random&amp;5" alt="Second slide">
-                    </div>
-                    <div class="carousel-item active">
-                        <img src="https://unsplash.it/1110/300/?blur&amp;random&amp;6" alt="Third slide">
-                    </div>
-                </div>
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="icon-prev" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="icon-next" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
+
         </div>
     </div>
 
@@ -95,8 +75,24 @@
                 <div class="panel">
 
 
-                    <button onclick="sayHello();" type="button" class="btn btn-primary">測試</button>
-                    <div id="output"></div>
+                    <canvas id="myCanvas" width="560" height="560"></canvas>
+                    <p id="msg"></p>
+                    <img id="block" src="./img/block.gif" style="display:none;">
+                    <img id="wall" src="./img/wall.png" style="display:none;">
+                    <img id="ball" src="./img/ball.png" style="display:none;">
+                    <img id="box" src="./img/box.png" style="display:none;">
+                    <img id="pleft" src="./img/left.png" style="display:none;">
+                    <img id="pright" src="./img/right.png" style="display:none;">
+                    <img id="pup" src="./img/up.png" style="display:none;">
+                    <img id="pdown" src="./img/down.png" style="display:none;">
+                    <input type="button" value="上一关" onclick="NextLevel(-1)">
+                    <input type="button" value="下一关" onclick="NextLevel(1)">
+                    <input type="button" value="重玩本关" onclick="NextLevel(0)">
+
+
+
+
+
                 </div>
             </div>
         </div>
@@ -117,7 +113,8 @@
         crossorigin="anonymous"></script>-->
 
     <script src="./js/bootstrap.js"></script>
-    <script src="./js/js001.js"></script>
+    <script src="./js/js_game.js"></script>
+    <script src="./js/js_gamemap.js"></script>
 
 </body>
 

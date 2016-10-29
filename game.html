@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>推箱子[作者:天昊]</title>
+    <meta name="keywords" content="原创JS游戏,天昊" />
+    <meta name="description" content="原创JS游戏推箱子" />
+</head>
+
+<body>
+</body>
+
+<script src="./js/game.js"></script>
+<script>
+    (function($) {
+        $(document).ready(
+            function() {
+                {
+                    //(new SokobanField(level)).place(document.body);
+                    new SokobanGame(levers, document.body);
+                }
+            }
+        )
+    })(jQuery)
+</script>
+
+</html>
