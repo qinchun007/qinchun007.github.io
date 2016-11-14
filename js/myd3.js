@@ -47,12 +47,13 @@ var r1 = svgctrl.append('rect');
 var r2 = svgctrl.append('rect');
 var r3 = svgctrl.append('rect');
 var r4 = svgctrl.append('rect');
+var l1 = svgctrl.append('line');
 r1.attr('x', cx).attr('y', cy).attr('rx', 20).attr('ry', 20).attr('width', 150).attr('height', 150).attr('fill', '#ff6666').attr('stroke', 'black').attr('stroke-width', 5).attr('opacity', 0.5);
 r2.attr('x', cx + 155).attr('y', cy).attr('rx', 20).attr('ry', 20).attr('width', 150).attr('height', 150).attr('fill', '#ff8c66').attr('stroke', 'black').attr('stroke-width', 5).attr('opacity', 0.5);
 r3.attr('x', cx).attr('y', cy + 155).attr('rx', 20).attr('ry', 20).attr('width', 150).attr('height', 150).attr('fill', '#d9ff66').attr('stroke', 'black').attr('stroke-width', 5).attr('opacity', 0.5);
 r4.attr('x', cx + 155).attr('y', cy + 155).attr('rx', 20).attr('ry', 20).attr('width', 150).attr('height', 150).attr('fill', '#668cff').attr('stroke', 'black').attr('stroke-width', 5).attr('opacity', 0.5);
-
-
+l1.attr('x1',cx+153).attr('y1',cy+305).attr('x2',cx+153).attr('y2',cy+505).attr('stroke',black).attr('stroke-width',2);
+ //<line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
 
 //<rect x="50" y="20" width="175" height="120" style="fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9"
 //                />
