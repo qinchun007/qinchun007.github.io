@@ -14,12 +14,20 @@ var r4 = svgctrl.append('rect');
 var l1 = svgctrl.append('line');
 var e1 = svgctrl.append('ellipse');
 var e2 = svgctrl.append('ellipse');
+<<<<<<< HEAD
 
 function draw(cx, cy) {
     var cx1 = cx * 1 + 155;
 
     var cy1 = cy * 1 + 155;
 
+=======
+function draw(cx, cy) {
+    var cx1 = cx * 1 + 155;
+
+    var cy1 = cy * 1 + 155;
+  
+>>>>>>> origin/master
     var cx2 = cx * 1 + 153;
     var cy2 = cy * 1 + 285;
     var cy3 = cy * 1 + 505;
@@ -32,6 +40,19 @@ function draw(cx, cy) {
     l1.attr('x1', cx2).attr('y1', cy2).attr('x2', cx2).attr('y2', cy3).attr('stroke', 'black').attr('stroke-width', 5);
     e1.attr('cx', cx3).attr('cy', cy3).attr('rx', 25).attr('ry', 20).attr('fill', '#669900');
     e2.attr('cx', cx4).attr('cy', cy3).attr('rx', 25).attr('ry', 20).attr('fill', '#669900');
+<<<<<<< HEAD
+=======
+}
+function run() {
+    var cx = $('#height').val();
+
+    console.log(cx);
+    var cy = $('#weight').val();
+    console.log(cy);
+draw(cx,cy);
+
+
+>>>>>>> origin/master
 }
 
 function run() {
