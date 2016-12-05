@@ -29,7 +29,7 @@
               console.log(item);
               result.push(item);
           }
-          var str = JSON.stringify(result, null, 4);
+          var str = JSON.stringify(result, null, 10);
           fs.writeFile('result.json', str, 'utf8', function(err) {
               if (err) {
                   console.log("存档失败");

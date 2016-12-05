@@ -1,5 +1,5 @@
 var fs = require('fs');
-var a;
+
 console.log(__dirname);
 var filename = __dirname + '\\web\\index.html';
 console.log(filename);
@@ -11,7 +11,7 @@ var server = http.createServer(function(req, res) {
     fs.readFile(filename, 'utf8', function(err, content) {
         if (err) {
             console.log('Failed to read');
-            res.writeHead(404, { 'Content-Tpye': 'text/html' });
+            res.writeHead(404, { 'Content-Tpye': 'text/plain' });
             res.end();
             return;
         }
