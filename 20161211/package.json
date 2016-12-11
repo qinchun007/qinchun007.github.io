@@ -1,0 +1,15 @@
+{
+  "name": "http_client",
+  "version": "0.0.1",
+  "description": "homework",
+  "main": "http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "qinchun",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0"
+  }
+}
