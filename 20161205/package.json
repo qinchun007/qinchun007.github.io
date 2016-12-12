@@ -1,0 +1,15 @@
+{
+  "name": "mongodb",
+  "version": "0.0.1",
+  "description": "lala",
+  "main": "http.js",
+  "dependencies": {
+    "mongoose": "^4.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "qinchun",
+  "license": "MIT"
+}

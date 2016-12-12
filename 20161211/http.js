@@ -110,13 +110,13 @@ var server = http.createServer(function(req, res) {
         if (err) {
             console.log('Failed to read');
             // 若檔案讀取錯誤，回傳 404
-            res.writeHead(404, { 'Content-Type': 'text/html' });
+            res.writeHead(404, { 'Content-Type': 'text/html; charset=utf8' });
             res.end();
             return;
         }
         // 將檔案內容傳給瀏覽器
         //res.writeHead(200, { 'Content-Type': 'text/' });
-        res.writeHead(200, { 'Content-Type': 'text/html; charset=utf8' });
+        //res.writeHead(200, { 'Content-Type': 'text/html; charset=utf8' });
         res.write(content);
         res.end();
     })

@@ -1,10 +1,10 @@
 {
     "version": "0.2.0",
     "configurations": [{
-            "name": "http",
+            "name": "mongodb",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/http.js",
+            "program": "${workspaceRoot}/new.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
