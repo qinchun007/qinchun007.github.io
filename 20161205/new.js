@@ -24,10 +24,10 @@ db.once('open', function() {
 
     // 根據 Profile 資料類型，宣告 wang 資料
     var wang = new Profile({
-        name: '張三',
-        id: 'zs',
-        pw: 'asdf',
-        email: 'zs@qq.com'
+        name: '李四',
+        id: 'ls',
+        pw: 'abcd',
+        email: 'ls@qq.com'
     });
 
     wang.save(function(err, doc) {
@@ -35,6 +35,7 @@ db.once('open', function() {
             console.log(doc.name + '新增失敗');
         } else {
             console.log(doc.name + '新增成功');
+            console.log(doc.id + '新增成功');
         }
     })
 });
